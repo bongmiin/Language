@@ -19,7 +19,7 @@
 	- *매개 변수 객체의 생성자는 호출되지 않음*
 
 - 함수 종료
-> 예제 5-1
+> [예제 5-1](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-1%20%EA%B0%92%EC%97%90%20%EC%9D%98%ED%95%9C%20%ED%98%B8%EC%B6%9C%EC%8B%9C%EC%97%90%20%EC%83%9D%EC%84%B1%EC%9E%90.cpp)
 
 ### 객체 치환 및 객체 리턴
 - 객체 치환
