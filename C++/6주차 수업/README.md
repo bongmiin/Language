@@ -19,7 +19,7 @@
 	- *매개 변수 객체의 생성자는 호출되지 않음*
 
 - 함수 종료
-> [예제 5-1](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-1%20%EA%B0%92%EC%97%90%20%EC%9D%98%ED%95%9C%20%ED%98%B8%EC%B6%9C%EC%8B%9C%EC%97%90%20%EC%83%9D%EC%84%B1%EC%9E%90.cpp)
+> [값에 의한 호출시에 생성자](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-1%20%EA%B0%92%EC%97%90%20%EC%9D%98%ED%95%9C%20%ED%98%B8%EC%B6%9C%EC%8B%9C%EC%97%90%20%EC%83%9D%EC%84%B1%EC%9E%90.cpp)
 
 ### 객체 치환 및 객체 리턴
 - 객체 치환
@@ -29,7 +29,7 @@
 
 - 객체 리턴
 	- 객체의 복사본 리턴 
-> [예제 5-2](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-2%20%EA%B0%9D%EC%B2%B4%EB%A6%AC%ED%84%B4.cpp)
+> [객체 리턴](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-2%20%EA%B0%9D%EC%B2%B4%EB%A6%AC%ED%84%B4.cpp)
 
 ### 참조와 함수
 - 참조란 가리킨다는 뜻으로 이미 존재하는 객체나 변수에 대한 별명
@@ -50,7 +50,7 @@
 	Circle circle;
 	Circle &refc = circle;
 	```
-> [예제 5-3](C++/6주차 수업/5-3 기본 타입 변수에 대한 참조.cpp), 예제 5-4
+> [기본 타입 변수에 대한 참조](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-3%20%EA%B8%B0%EB%B3%B8%20%ED%83%80%EC%9E%85%20%EB%B3%80%EC%88%98%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%B0%B8%EC%A1%B0.cpp), [객체에 대한 참조](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-4%20%EA%B0%9D%EC%B2%B4%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%B0%B8%EC%A1%B0.cpp)
 
 ### 참조에 의한 호출
 - 참조를 가장 많이 활용하는 사례
@@ -60,7 +60,7 @@
 	 - 참조매개 변수 라고 부름
 	 - 참조매개 변수의 이름만 생기고 공간이 생기지 않음
 	 ...
-> 예제 5-5, 예제 5-6
+> 예제 5-5, [참조에 의한 호출로 Circle 객체에 참조 전달](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-6%20%EC%B0%B8%EC%A1%B0%EC%97%90%20%EC%9D%98%ED%95%9C%20%ED%98%B8%EC%B6%9C%EB%A1%9C%20Circle%20%EA%B0%9D%EC%B2%B4%EC%97%90%20%EC%B0%B8%EC%A1%B0%20%EC%A0%84%EB%8B%AC.cpp)
 
 ### 참조 리턴
 - C++의 함수 리턴
@@ -69,7 +69,7 @@
 	 - 변수 등과 같이 현존하는 공간에 대한 참조 리턴
 	  - *변수의 값을 리턴하는 것이 아님*
 	  *값을 리턴하는 함수 VS. 참조를 리턴하는 함수*
-> 예제 5-8
+> [간단한 참조 리턴 사례](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-8%20%EA%B0%84%EB%8B%A8%ED%95%9C%20%EC%B0%B8%EC%A1%B0%20%EB%A6%AC%ED%84%B4%20%EC%82%AC%EB%A1%80.cpp)
 
 ### 얕은 복사와 깊은 복사
 - 얕은 복사
@@ -89,9 +89,9 @@
 	- 한 클래스에 *오직 한 개만* 선언 가능
 	- 복사 생성자는 보통 생성자와 클래스 내에 중복 선언가능
 	...
-> 예제 5-9
+> [Circle의 복사 생성자와 객체 복사](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-9%20Circle%EC%9D%98%20%EB%B3%B5%EC%82%AC%20%EC%83%9D%EC%84%B1%EC%9E%90%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B3%B5%EC%82%AC.cpp)
 
 ### 디폴트 복사 생성자
 - 복사 생성자가 선언되어 있지 않는 클래스
 	- 컴파일러는 자동으로 디폴트 복사 생성자 삽입
-> 예제 5-10
+> [깊은 복사 생성자를 가진 정상적인 Person 클래스](https://github.com/bongmiin/Language/blob/main/C%2B%2B/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85/5-11%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC%20%EC%83%9D%EC%84%B1%EC%9E%90%EB%A5%BC%20%EA%B0%80%EC%A7%84%20%EC%A0%95%EC%83%81%EC%A0%81%EC%9D%B8%20Person%20%ED%81%B4%EB%9E%98%EC%8A%A4.cpp)
