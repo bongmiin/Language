@@ -104,10 +104,7 @@ public:
 ```
 |생성자 코드에서 멤버 변수 초기화|생성자 서두에 초깃값으로 초기화|클래스 선언부에서 직접 초기화|
 |-------|----------|----------|
-|Point::point() {x = 0; y = 0;}|Point::Point() : x(0), y(0) {}|class Point {|
-|Point::Point(int a, int b) { x = a; y = b; }|Point::Point(int a, int b)|int x = 0, y = 0;|
-||	:x(a),y(b){}|public:|
-|||....};|
+|Point::point() {x = 0; y = 0;}<br>Point::Point(int a, int b) { x = a; y = b; }|Point::Point() : x(0), y(0) { }<br>Point::Point(int a, int b)<br>	:x(a),y(b){ }|class Point {<br>int x = 0, y = 0;<br>public:<br>....};|
 
 ### 기본 생성자
 
