@@ -12,7 +12,7 @@
 
 ### 이름 충돌 <br>
 --------------
-![이름 충돌 사례](./img/namespace.png)
+![이름 충돌 사례](../img/namespace.png)
 <br>
 - namespace 키워드
 	- 이름 충돌 해결
@@ -66,7 +66,7 @@ namespace yena { // yena 라는 이름 공간 생성
 
 ### include <iostream>와 전처리기
 --------------
-![전처리기](./img/preprocessor.png)
+![전처리기](../img/preprocessor.png)
 
 <br>
 - iostream 파일은 확장자 없는 텍스트 파일
