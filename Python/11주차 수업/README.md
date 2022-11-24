@@ -79,17 +79,17 @@ c = Button(Master, Option, ...)
 - bind() 메서드 이용, bind(이벤트명, 핸들러)
 
 - 이벤트 명
-	- <Button-1>
-	- <Button-2>
-	- <Button-3>
-	- <B1-Motion>
-	- <Double-Button-2>
-	- <ButtonRelease-3>
-	- <Key>
-	- <Up>
-	- <Return>
-	- <Home>
-	- <Leave>
+	- \<Button-1>
+	- \<Button-2>
+	- \<Button-3>
+	- \<B1-Motion>
+	- \<Double-Button-2>
+	- \<ButtonRelease-3>
+	- \<Key>
+	- \<Up>
+	- \<Return>
+	- \<Home>
+	- \<Leave>
 
 - 핸들러
 	- num : 마우스 이벤트 번호
