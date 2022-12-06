@@ -63,7 +63,6 @@ help(__builtins__) # 내장함수 종류 보기
 |리스트, 튜플 형태 변환|list(a), tuple(a)|
 |**최대값과 최솟값**|max(a), min(a)|
 |정렬|sorted(a)|
-|**난수발생**|rand()|
 |**문자열, 리스트의 길이 구하기**|len()|
 |객체 요소 간의 짝 구성|zip(a,...)|a = zip(['영희','철수'],[여,남])|
 |자료 순서와 값 반환|enumerate(a)|
@@ -72,5 +71,34 @@ help(__builtins__) # 내장함수 종류 보기
 |**반올림**|round(a,0)|round(3.13, 0)|
 
 > 텍스트 계산기
+
 > 객체 정보 출력
 
+### 표준 라이브러리
+- 외장함수, 내장 라이브러리, 표준 라이브러리
+	- import 하여 사용
+---------------
+
+|역할|함수명|예시|
+|----|------|---------|
+|**파이썬 객체를 그대로 저장**|pickle( )|pickle.dump(a,f) <br> pickle.load(f)|
+|**난수 발생**|random( )|random.radint(1, 100) <br> 1부터 100까지의 랜덤값 반환|
+|웹브라우저와 인터넷에 관련된 라이브러리|webbrowser|
+|웹의 데이터 이용하기|urllib|
+|**날짜이용하기**|datetime|datetime.date.today( )|
+|isoformat()<br> YYYY-MM-DD|ctime()<br> 날짜와 시간 출력|strftime()<br>표시 형태대로 출력|
+
+### random 라이브러리
+
+|함수명|역할|
+|------|------|
+|.uniform( )|uniform은 범위가 클 때 사용|
+|.randrange( )|range와 용법이 같음|
+|choice(a), sample(a, x)|정해진 리스트 안에서 무작위로 고르기|
+
+### time 라이브러리
+
+> 내용추가 요함 
+
+- timedelta
+- 
