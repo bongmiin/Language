@@ -24,18 +24,19 @@ root.mainloop()
 
 ----------------
 
-- 사용빈도가 높은 구성요소
-	- Button
-	- Entry
-	- Lable
-	- Menubutton
-	- Menu
-	- Message
-	- Scale
-	- Scrollbar
-	- Text
-	- Spinbox
-	- tkMessageBox
+|사용빈도가 높은 구성요소|설명|
+|----------|---------------|
+|Button|이벤트를 발생시키는 버튼을 만든다|
+|Entry|텍스트를 입력할 수 있는 한 줄짜리 칸을 만든다|
+|Lable|사용자에게 보일 한 줄짜리 텍스트를 넣는다|
+|Menubutton|Root에 Menu를 만든다|
+|Menu|메뉴 버튼 아래 각각의 메뉴를 구성한다|
+|Message|사용자에게 여러 줄의 텍스트를 보여 준다|
+|Scale|슬라이더를 사용한 위젯을 제공한다|
+|Scrollbar|여러 리스트를 스크롤바가 있는 박스로 보여 준다|
+|Text|여러 줄의 텍스트를 사용자에게 보여 준다|
+|Spinbox|화살표로 숫자의 크기를 올리거나 내리는 창을 만든다|
+|tkMessageBox|사용자에게 메시지 박스에 메시지를 실어 출력한다|
 	
 ### 레이블, 엔트리, 버튼 위젯 옵션 알아보기
 
@@ -59,10 +60,10 @@ c = Button(Master, Option, ...)
 
 > 함수를 이용하여 버튼으로 동작 만들기
 
-- .get()
-- .delete()
-- .insert()
-- .destroy
+- .get(): 담긴 텍스트를 추출한다
+- .delete(): 담긴 텍스트를 삭제한다
+- .insert(): index 위치에 텍스트를 추가한다
+- .destroy(): 해당 창 또는 위젯을 삭제한다
 
 > messagebox 만들기
 
